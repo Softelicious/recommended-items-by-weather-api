@@ -1,6 +1,6 @@
 # Restful API made with laravel
 
-This is a service, which returns product recommendations depending on current weather at Lithuanina cities.
+This is a service, which returns product recommendations depending on current weather at Lithuanian cities.
 
 ## Getting Started
 
