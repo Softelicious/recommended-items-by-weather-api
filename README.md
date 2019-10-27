@@ -12,6 +12,12 @@ PHP 7.1, Docker and Composer
 
 ### Installing
 
+Clone container
+
+```
+git clone https://github.com/Softelicious/meteo.git
+```
+
 Navigate to cloned container
 
 ```
@@ -24,7 +30,7 @@ Execute docker-compose.yml
 docker-compose up -d
 ```
 
-Enter to bash
+Enter the bash
 
 ```
 docker-compose exec php-fpm bash
