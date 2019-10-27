@@ -15,7 +15,7 @@ PHP 7.1, Docker and Composer
 Navigate to cloned container
 
 ```
-cd ~/Projects/adeo
+cd ~/Projects/meteo
 ```
 
 Execute docker-compose.yml
