@@ -75,7 +75,7 @@ class ExampleTest extends TestCase
      */
 
     public function checkIfSeedsWorked(){
-        $data = Product::find(15)->whethers;
+        $data = Product::find(13)->weathers;
         if(!count($data)>0){
             $this->assertFalse(true);
             return;
