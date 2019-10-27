@@ -8,6 +8,10 @@ use GuzzleHttp\Client;
 
 class WeatherController extends Controller
 {
+    /**
+     * @param string $city
+     * @return \Illuminate\Http\Response
+     */
     public function index($city){
         $client = new Client();
         try{
