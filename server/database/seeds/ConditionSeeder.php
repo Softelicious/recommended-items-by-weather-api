@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\DB;
 class ConditionSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Create a model
      *
      * @param string $condition
      * @return void
@@ -17,6 +17,11 @@ class ConditionSeeder extends Seeder
             'condition' => $condition
         ]);
     }
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
     public function run()
     {
         $this->create('clear');

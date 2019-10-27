@@ -12,6 +12,7 @@ class Product extends Model
         'price'
     ];
     public $timestamps = false;
+
     public function weathers(){
         return $this->belongsToMany(Weather::class);
     }
