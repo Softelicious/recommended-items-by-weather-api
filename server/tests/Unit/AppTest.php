@@ -35,7 +35,7 @@ class AppTest extends TestCase
 
     public function checkIfValidationDoesntPass()
     {
-        $this->validateFail('dsfsfd');
+        $this->validateFail('dsfbbfd');
     }
 
     /**
