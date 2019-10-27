@@ -67,4 +67,5 @@ That's it, check it out http://localhost:8081/api/products/recommended/rokiskis
 * [Laravel](https://laravel.com) - used framework 
 * [Meteo](https://api.meteo.lt/) - used API
 * [Guzzle](http://docs.guzzlephp.org/) - used HTTP client
+* [Docker](https://docs.docker.com/) - used local server
 
