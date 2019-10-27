@@ -83,12 +83,19 @@ class AppTest extends TestCase
      * @param string $input
      */
 
+<<<<<<< HEAD:server/tests/Unit/AppTest.php
     public function validatePass($input){
         try{
             $client = new Client();
             $client->get("https://api.meteo.lt/v1/places/$input/forecasts/long-term")->getBody();
         }catch(\Exception $e){
             $this->assertTrue(true);
+=======
+    public function checkIfSeedsWorked(){
+        $data = Product::find(13)->weathers;
+        if(!count($data)>0){
+            $this->assertFalse(true);
+>>>>>>> a3e216b10bc239365bac2433dd294babff5ded6f:server/tests/Unit/ExampleTest.php
             return;
         }
         $this->assertFalse(true);
