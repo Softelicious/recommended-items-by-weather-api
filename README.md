@@ -74,18 +74,18 @@ That's it, check it out http://localhost:8081/api/products/recommended/rokiskis
  
  ```json
 {
-    city: "vilnius",
-    current_weather: "light-rain",
-    recommended_products: [
+    "city": "vilnius",
+    "current_weather": "light-rain",
+    "recommended_products": [
         {
-          sku: "a-46",
-          name: "Red a",
-          price: 25
+          "sku": "a-46",
+          "name": "Red a",
+          "price": 25
         },
         {
-          sku: "pla-7",
-          name: "LightGoldenRodYellow placeat",
-          price: 24
+          "sku": "pla-7",
+          "name": "LightGoldenRodYellow placeat",
+          "price": 24
         }
      ]
  }
