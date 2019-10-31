@@ -8,39 +8,25 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-PHP 7.1, Docker and Composer
+Docker and Composer
 
 ### Installing
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Navigate to cloned container
-=======
+
 Clone container
->>>>>>> master
-=======
-Clone container
->>>>>>> master
+
 
 ```
 git clone https://github.com/Softelicious/meteo.git
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> master
+
 Navigate to cloned container
 
 ```
 cd ~/Projects/meteo
 ```
 
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> master
 Execute docker-compose.yml
 
 ```
@@ -49,24 +35,11 @@ docker-compose up -d
 
 Enter the bash
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Built With
 
-* [Laravel](https://laravel.com) - used framework 
-* [Meteo](https://api.meteo.lt/) - used API
-* [Guzzle](http://docs.guzzlephp.org/) - used HTTP client
-=======
 ```
 docker-compose exec php-fpm bash
 ```
 
-=======
-```
-docker-compose exec php-fpm bash
-```
-
->>>>>>> master
 Install composer dependencies
 
 ```
@@ -80,7 +53,6 @@ cp .env.example .env
 ```
 
 Generate app key
-<<<<<<< HEAD
 
 ```
 php artisan key:generate
@@ -92,20 +64,32 @@ Create and seed database
 php artisan migrate --seed
 ```
 
-=======
-
-```
-php artisan key:generate
-```
-
-Create and seed database
-
-```
-php artisan migrate --seed
-```
-
->>>>>>> master
 That's it, check it out http://localhost:8081/api/products/recommended/rokiskis
+
+## More info
+**_City goes to {city}_**
+ localhost:8081/api/products/recommended/**{city}**
+ 
+ **_And response for example will be_**
+ 
+ ```json
+{
+    city: "vilnius",
+    current_weather: "light-rain",
+    recommended_products: [
+        {
+          sku: "a-46",
+          name: "Red a",
+          price: 25
+        },
+        {
+          sku: "pla-7",
+          name: "LightGoldenRodYellow placeat",
+          price: 24
+        }
+     ]
+ }
+ ```
 
 ## Built With
 
@@ -113,10 +97,7 @@ That's it, check it out http://localhost:8081/api/products/recommended/rokiskis
 * [Meteo](https://api.meteo.lt/) - used API
 * [Guzzle](http://docs.guzzlephp.org/) - used HTTP client
 * [Docker](https://docs.docker.com/) - used local server
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> master
+
 
 
 
