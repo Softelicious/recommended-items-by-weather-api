@@ -17,14 +17,14 @@ Clone container
 
 
 ```
-git clone https://github.com/Softelicious/meteo.git
+git clone https://github.com/Softelicious/recommended-items-by-weather-api.git
 ```
 
 
 Navigate to cloned container
 
 ```
-cd ~/Projects/meteo
+cd ~/recommended-items-by-weather-api
 ```
 
 Execute docker-compose.yml
